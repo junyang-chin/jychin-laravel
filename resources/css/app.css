@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Mona Sans";
+    src: url("/resources/fonts/MMona-Sans.woff2ona_Sans/Mona-Sans.woff2")
+            format("woff2 supports variations"),
+        url("/resources/fonts/Mona_Sans/Mona-Sans.woff2")
+            format("woff2-variations");
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
 @layer base {
     body {
-        @apply font-sans text-light-dark text-base bg-light;
+        @apply leading-6 font-light text-light-dark text-base bg-light;
+    }
+}
+
+@layer utilities {
+    .font-condensed {
+        font-stretch: 75%;
+    }
+}
+
+@layer utilities {
+    .font-expanded {
+        font-stretch: 125%;
     }
 }
 
@@ -22,6 +44,6 @@
     }
 
     .section-title {
-        @apply font-title text-lg mb-2 font-bold text-dark;
+        @apply text-xl mb-2 font-bold font-expanded text-dark;
     }
 }

@@ -15,8 +15,7 @@ export default {
                 light: "#f8fafc",
             },
             fontFamily: {
-                sans: ["Barlow", ...defaultTheme.fontFamily.sans],
-                title: ["Arimo", "Helvetica", ...defaultTheme.fontFamily.sans],
+                sans: ["Mona Sans", "Barlow", ...defaultTheme.fontFamily.sans],
             },
         },
     },
