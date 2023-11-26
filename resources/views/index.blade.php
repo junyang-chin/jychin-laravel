@@ -52,6 +52,7 @@
 
             <img src={{ Vite::asset('resources/images/cat-work-laptop.gif') }} alt="cat-work-laptop gif" width="150px"
                 class="mt-4 m-auto">
+            <p class="text-center m-auto text-sm">*I use Linux Mint btw</p>
             <p class="hero-text">
                 Jun Yang is currently building(and breaking) things at
                 <a href="https://invokeisdata.com" target="_blank" class="underline hover-link">@invokeisdata</a>. He is
