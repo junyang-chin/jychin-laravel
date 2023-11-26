@@ -8,7 +8,8 @@
     @vite('resources/css/app.css')
 
     {{-- fonts --}}
-    <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href={{ Vite::asset('resources/fonts/Mona_Sans/Mona-Sans.woff2') }} as="font"
+        type="font/woff2" crossorigin>
 
     <!-- HTML Meta Tags -->
     <title>Jun's Developer Portfolio</title>
