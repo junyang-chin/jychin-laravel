@@ -51,8 +51,8 @@
                 PHP at my job, I'm also exploring the world of serverless technology and Go.
             </p>
 
-            <img src={{ Vite::asset('resources/images/cat-work-laptop.gif') }} alt="cat-work-laptop gif" width="150px"
-                class="mt-4 m-auto">
+            <img src="https://media.tenor.com/A-ozELwp694AAAAC/thumbs-thumbs-up-kid.gif" alt="brent-rambo-thumbs gif"
+                width="250px" class="mt-4 m-auto">
             <p class="text-center m-auto text-sm">*I use Linux Mint btw</p>
             <p class="hero-text">
                 Jun Yang is currently building(and breaking) things at
