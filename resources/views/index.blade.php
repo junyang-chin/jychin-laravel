@@ -24,8 +24,7 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="jychin.com">
-    <meta property="twitter:url" content="https://jychin.com/">
+    <meta name="twitter:site" content="@junyang96">
     <meta name="twitter:title" content="Jun's Developer Portfolio">
     <meta name="twitter:description" content="A documentation of my web development experiences">
     <meta name="twitter:image" content={{ Vite::asset('resources/images/og-image.png') }}>
@@ -51,9 +50,13 @@
                 PHP at my job, I'm also exploring the world of serverless technology and Go.
             </p>
 
-            <img src="https://media.tenor.com/A-ozELwp694AAAAC/thumbs-thumbs-up-kid.gif" alt="brent-rambo-thumbs gif"
-                width="250px" class="mt-4 m-auto">
-            <p class="text-center m-auto text-sm">*I use Linux Mint btw</p>
+            <figure class="mt-4">
+                <video width="300" height="200" autoplay="autoplay" loop class="m-auto">
+                    <source src="https://i.giphy.com/media/m2Q7FEc0bEr4I/giphy.mp4" type="video/mp4" />
+                </video>
+
+                <figcaption class="text-center m-auto text-sm">*I use Linux Mint btw</figcaption>
+            </figure>
             <p class="hero-text">
                 Jun Yang is currently building(and breaking) things at
                 <a href="https://invokeisdata.com" target="_blank" class="underline hover-link">@invokeisdata</a>. He is
