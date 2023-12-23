@@ -85,6 +85,13 @@
                         Email
                     </a>
                 </li>
+                    <div>&nbsp;/&nbsp;</div>
+                <li>
+                    <a href={{ Vite::asset('resources/cv-chin_jun_yang.pdf') }} target="_blank"
+                        class="font-medium font-expanded hover-link">
+                        Resume
+                    </a>
+                </li>
             </ul>
         </section>
 
@@ -119,6 +126,32 @@
             </div>
         </section>
         <section class="section-container">
+            <h1 class="section-title">Personal Project</h1>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://github.com/junyang-chin/php-from-scratch" target="_blank" class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">PHP-FROM-SCRATCH</h3>
+                        <p class="text-sm">My attempt to build a web framework using Object Oriented Programming in PHP</p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+            
+        </section>
+        <section class="section-container">
+            <h1 class="section-title">Achievements</h1>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://www.linkedin.com/posts/junyangchin_hays-hack-coding-competition-winner-activity-7128593960851144704-oYhO?utm_source=share&utm_medium=member_desktop" target="_blank" class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">Hays &lt/Hack&gt Coding Contest 2023</h3>
+                        <p class="text-sm">Winner of the PHP category</p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+            
+        </section>
+        <section class="section-container">
             <h1 class="section-title">Get In Touch</h1>
             <div class="flex flex-wrap">
                 <p class="py-1">
@@ -131,6 +164,7 @@
         </section>
     </main>
 
+    <p class="text-sm mb-2 text-center">Made with <a href="https://laravel.com/" target="_blank" class="hover:underline">Laravel</a></p>
 </body>
 
 </html>
