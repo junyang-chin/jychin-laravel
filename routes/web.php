@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Traffic;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', function (Request $request) {
+    return view('index', ['visits' => Traffic::where('url', $request->url())->value('count')]);
 });
