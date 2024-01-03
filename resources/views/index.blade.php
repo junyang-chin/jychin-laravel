@@ -110,7 +110,7 @@
                 <a href="https://edu.adnexio.jobs" target="_blank" class="group flex justify-between items-center">
                     <div class="group-hover:underline">
                         <h3 class="text-lg">adnexioEDU</h3>
-                        <p class="text-sm">Tech education in a click</p>
+                        <p class="text-sm">Self paced tech education</p>
                     </div>
                     <span class="inline after:content-['_↗']"></span>
                 </a>
@@ -131,8 +131,19 @@
                 <a href="https://github.com/junyang-chin/php-from-scratch" target="_blank"
                     class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">PHP-FROM-SCRATCH</h3>
+                        <h3 class="text-lg">php-from-scratch</h3>
                         <p class="text-sm">My attempt to build a web framework using Object Oriented Programming in PHP
+                        </p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://github.com/junyang-chin/jychin-laravel" target="_blank"
+                    class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">jychin-laravel</h3>
+                        <p class="text-sm">My live website built with Laravel
                         </p>
                     </div>
                     <span class="inline after:content-['_↗']"></span>
