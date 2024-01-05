@@ -5,8 +5,6 @@ namespace Tests\Feature\Middlewares;
 use App\Events\VisitorEvent;
 use App\Http\Middleware\LogTrafficMiddleware;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Http\Response as HttpResponse;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Request;

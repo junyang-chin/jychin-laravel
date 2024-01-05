@@ -19,10 +19,9 @@ class LogTrafficMiddleware
         $response = $next($request);
 
         if ($response->isOk()) {
-            VisitorEvent::dispatch($request->url()); 
+            VisitorEvent::dispatch($request->url());
         }
 
         return $response;
     }
-   
 }

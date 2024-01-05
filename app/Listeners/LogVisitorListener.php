@@ -5,7 +5,6 @@ namespace App\Listeners;
 use App\Events\VisitorEvent;
 use App\Models\Traffic;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Facades\DB;
 
 class LogVisitorListener implements ShouldQueue
@@ -23,7 +22,7 @@ class LogVisitorListener implements ShouldQueue
      */
     public function handle(VisitorEvent $event): void
     {
-        DB::transaction(function () use ($event) {
+        DB::transaction(function () use ($event): void {
             Traffic::query()
                 ->updateOrCreate(
                     ['url' => $event->url],
@@ -36,7 +35,7 @@ class LogVisitorListener implements ShouldQueue
     {
         $lastCount = Traffic::query()->orderBy('id', 'desc')->value('count');
 
-        if (!$lastCount) {
+        if (! $lastCount) {
             $lastCount = 0;
         }
 
