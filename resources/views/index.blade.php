@@ -40,17 +40,20 @@
                 Jun Yang <span class="text-primary">Chin</span>
             </h1>
             <div class="relative">
-                <h2 class="font-extrabold font-expanded leading-4 text-dark md:text-3xl text-xl mt-8 relative">Half-Stack Developer
+                <h2 class="font-extrabold font-expanded leading-4 text-dark md:text-3xl text-xl mt-8 relative">
+                    Half-Stack Developer
                 </h2>
-                <img src="{{Vite::asset('resources/images/profile.png')}}" alt="profile picure" width="200" class="absolute -right-6 sm:right-0 -bottom-6 sm:bottom-0 -z-10">
+                <img src="{{ Vite::asset('resources/images/profile.png') }}" alt="profile picure" width="200"
+                    class="absolute -right-6 sm:right-0 -bottom-6 sm:bottom-0 -z-10">
             </div>
             <p class="hero-text bg-light">
                 Hello, I'm Jun Yang 俊扬, some call me Jun and that's fine. I'm web
                 developer based in Kuala Lumpur 🧑‍💻.
             </p>
             <p class="hero-text">
-                I primarily build server-side applications with a little bit of devops on the side. Other than coding in
-                PHP at my job, I wonder into the world of serverless technology and Go. I'm also a fan of Linux and currently using Mint as daily driver.
+                I primarily build server-side applications with a little bit of DevOps on the side. While my primary
+                coding language at work is PHP, I actively engage in exploring the latest technologies and adhering to
+                best practices. I'm also a fan of Linux and currently use Mint as my daily driver.
             </p>
 
             </figure>
