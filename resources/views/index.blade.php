@@ -39,23 +39,20 @@
             <h1 class="font-bold font-condensed leading-10 text-3xl text-dark mt-4 inline-block select-none">
                 Jun Yang <span class="text-primary">Chin</span>
             </h1>
-            <h2 class="font-extrabold font-expanded leading-4 text-dark md:text-3xl text-xl mt-8">Half-Stack Developer
-            </h2>
-            <p class="hero-text">
+            <div class="relative">
+                <h2 class="font-extrabold font-expanded leading-4 text-dark md:text-3xl text-xl mt-8 relative">Half-Stack Developer
+                </h2>
+                <img src="{{Vite::asset('resources/images/profile.png')}}" alt="profile picure" width="200" class="absolute -right-6 sm:right-0 -bottom-6 sm:bottom-0 -z-10">
+            </div>
+            <p class="hero-text bg-light">
                 Hello, I'm Jun Yang 俊扬, some call me Jun and that's fine. I'm web
                 developer based in Kuala Lumpur 🧑‍💻.
             </p>
             <p class="hero-text">
                 I primarily build server-side applications with a little bit of devops on the side. Other than coding in
-                PHP at my job, I'm also exploring the world of serverless technology and Go.
+                PHP at my job, I wonder into the world of serverless technology and Go. I'm also a fan of Linux and currently using Mint as daily driver.
             </p>
 
-            <figure class="mt-4">
-                <video width="300" height="200" autoplay="autoplay" loop class="m-auto">
-                    <source src="https://i.giphy.com/media/m2Q7FEc0bEr4I/giphy.mp4" type="video/mp4" />
-                </video>
-
-                <figcaption class="text-center m-auto text-sm">*I use Linux Mint btw</figcaption>
             </figure>
             <p class="hero-text">
                 Jun Yang is currently building(and breaking) things at
@@ -169,10 +166,9 @@
             <h1 class="section-title">Get In Touch</h1>
             <div class="flex flex-wrap">
                 <p class="py-1">
-                    👉<span class="text-primary hover:bg-slate-200 px-2 py-1 rounded inline select-all">
-                        junyang.chin@outlook.com
+                    <span class="text-primary hover:bg-slate-200 px-2 py-1 rounded inline select-all">
+                        &#106;u&#110;ya&#110;g&#46;&#99;hin&#64;ou&#116;loo&#107;&#46;com
                     </span>
-                    👈
                 </p>
             </div>
         </section>
