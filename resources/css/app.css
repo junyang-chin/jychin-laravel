@@ -14,7 +14,7 @@
 
 @layer base {
     body {
-        @apply leading-6 font-light text-light-dark text-base bg-light;
+        @apply font-[400] text-light-dark text-[1.1rem] sm:text-[1.1rem] leading-8 bg-light;
     }
 }
 

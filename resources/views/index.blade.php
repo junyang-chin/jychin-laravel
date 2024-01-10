@@ -44,17 +44,17 @@
                     Half-Stack Developer
                 </h2>
                 <img src="{{ Vite::asset('resources/images/profile.png') }}" alt="profile picure" width="200"
-                    class="absolute -right-6 sm:right-0 -bottom-6 sm:bottom-0 -z-10">
+                    class="absolute -right-6 sm:right-0 -bottom-2 sm:bottom-0 -z-10 w-[160px] sm:w-[200px]">
             </div>
             <p class="hero-text bg-light">
-                Hello, I'm Jun Yang 俊扬, some call me Jun and that's fine. I'm web
+                Hello, this is Jun Yang 俊扬, some call me Jun and that's fine. I'm web
                 developer based in Kuala Lumpur 🧑‍💻.
             </p>
             <p class="hero-text">
-                I primarily build server-side applications with a little bit of DevOps on the side. While my primary
-                coding language at work is PHP, I actively engage in exploring the latest technologies and adhering to
-                best practices. I'm also a fan of Linux and currently use Mint as my daily driver.
-            </p>
+                I enjoy building server-side applications with a little bit of DevOps on the side. While my primary
+                programming language at work is Object Oriented PHP, I actively explore different paradigms just to keep my
+                biases checked. This leads me to learning Go, a vastly different language but complements PHP very well.
+                I'm also a fan of Linux and currently using Mint as my daily driver.</p>
 
             </figure>
             <p class="hero-text">
