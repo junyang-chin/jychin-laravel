@@ -14,7 +14,7 @@
 
 @layer base {
     body {
-        @apply font-[400] text-light-dark text-[1.1rem] sm:text-[1.1rem] leading-8 bg-light;
+        @apply font-[400] text-light-dark text-[1rem] sm:text-[1.1rem] leading-7 bg-light;
     }
 }
 
@@ -36,7 +36,7 @@
     }
 
     .hero-text {
-        @apply mt-4;
+        @apply mt-6;
     }
 
     .section-container {
