@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', RootController::class);
+Route::middleware(['cache.headers:public;max_age=60;'])->get('/', RootController::class);
