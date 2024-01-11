@@ -14,19 +14,34 @@
 
 @layer base {
     body {
-        @apply font-[400] text-light-dark text-[1rem] sm:text-[1.1rem] leading-7 bg-light;
+        @apply font-[300] text-light-dark text-[1rem] sm:text-[1.1rem] leading-[1.8rem] bg-light;
     }
 }
 
 @layer utilities {
+    .font-extra-condensed {
+        font-stretch: extra-condensed;
+    }
+
+
+    .font-semi-condensed {
+        font-stretch: semi-condensed;
+    }
+    
     .font-condensed {
-        font-stretch: 75%;
+        font-stretch: condensed;
     }
-}
 
-@layer utilities {
+    .font-extra-expaneded {
+        font-stretch: extra-expanded;
+    }
+
+    .font-semi-expaneded {
+        font-stretch: semi-expanded;
+    }
+
     .font-expanded {
-        font-stretch: 125%;
+        font-stretch: expanded;
     }
 }
 

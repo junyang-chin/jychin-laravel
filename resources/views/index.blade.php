@@ -100,7 +100,7 @@
             <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
                 <a href="https://adnexio.jobs" target="_blank" class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">adnexioJOBS</h3>
+                        <h3 class>adnexioJOBS</h3>
                         <p class="text-sm">Job matching with AI</p>
                     </div>
                     <span class="inline after:content-['_↗']"></span>
@@ -109,7 +109,7 @@
             <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
                 <a href="https://edu.adnexio.jobs" target="_blank" class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">adnexioEDU</h3>
+                        <h3 >adnexioEDU</h3>
                         <p class="text-sm">Self paced tech education</p>
                     </div>
                     <span class="inline after:content-['_↗']"></span>
@@ -118,7 +118,7 @@
             <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark">
                 <a href="https://hr.adnexio.jobs" target="_blank" class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">adnexioHR</h3>
+                        <h3 >adnexioHR</h3>
                         <p class="text-sm">All your HR needs in one portal</p>
                     </div>
                     <span class="inline after:content-['_↗']"></span>
@@ -131,7 +131,7 @@
                 <a href="https://github.com/junyang-chin/php-from-scratch" target="_blank"
                     class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">php-from-scratch</h3>
+                        <h3 >php-from-scratch</h3>
                         <p class="text-sm">My attempt to build a web framework using Object Oriented Programming in PHP
                         </p>
                     </div>
@@ -142,7 +142,7 @@
                 <a href="https://github.com/junyang-chin/jychin-laravel" target="_blank"
                     class="group flex justify-between items-center">
                     <div class="group-hover:underline">
-                        <h3 class="text-lg">jychin-laravel</h3>
+                        <h3 >jychin-laravel</h3>
                         <p class="text-sm">My live website built with Laravel
                         </p>
                     </div>
