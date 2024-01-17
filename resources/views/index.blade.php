@@ -177,7 +177,7 @@
         </section>
     </main>
 
-    <p class="text-sm mb-2 text-center">Made with <a href="https://laravel.com/" target="_blank"
+    <p class="text-sm mb-2 text-center">Dynamically rendered with <a href="https://laravel.com/" target="_blank"
             class="hover:underline">Laravel</a>. Visitors: {{ $visits ?? 0 }}</p>
 </body>
 
