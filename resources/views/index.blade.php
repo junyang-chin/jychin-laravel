@@ -152,6 +152,39 @@
 
         </section>
         <section class="section-container">
+            <h1 class="section-title">What I'm Onto</h1>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://themsaid.com/courses/php-to-go"
+                    target="_blank" class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">PHP To Go</h3>
+                        <p class="text-sm">Learning Go as a PHP developer</p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://spatie.be/courses/writing-readable-php"
+                    target="_blank" class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">Writing Readable PHP</h3>
+                        <p class="text-sm">Trying to imitate how Spatie writes PHP</p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+            <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
+                <a href="https://refactoring.guru/design-patterns"
+                    target="_blank" class="group flex justify-between items-center">
+                    <div class="group-hover:underline">
+                        <h3 class="text-lg">Design Patterns</h3>
+                        <p class="text-sm">Doing OOP correctly with Refactoring Guru</p>
+                    </div>
+                    <span class="inline after:content-['_↗']"></span>
+                </a>
+            </div>
+        </section>
+        <section class="section-container">
             <h1 class="section-title">Achievements</h1>
             <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
                 <a href="https://www.linkedin.com/posts/junyangchin_hays-hack-coding-competition-winner-activity-7128593960851144704-oYhO?utm_source=share&utm_medium=member_desktop"
