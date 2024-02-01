@@ -12,20 +12,20 @@
         type="font/woff2" crossorigin>
 
     <!-- HTML Meta Tags -->
-    <title>Jun's Developer Portfolio</title>
+    <title>JYCHIN | {{ $title }}</title>
     <meta name="description" content="A documentation of my web development experiences">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://jychin.com/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Jun's Developer Portfolio">
+    <meta property="og:title" content="JYCHIN | {{ $title }}">
     <meta property="og:description" content="A documentation of my web development experiences">
     <meta property="og:image" content={{ Vite::asset('resources/images/og-image.png') }}>
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@junyang96">
-    <meta name="twitter:title" content="Jun's Developer Portfolio">
+    <meta name="twitter:title" content="JYCHIN | {{ $title }}">
     <meta name="twitter:description" content="A documentation of my web development experiences">
     <meta name="twitter:image" content={{ Vite::asset('resources/images/og-image.png') }}>
 

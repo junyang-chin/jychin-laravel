@@ -1,4 +1,4 @@
-<x-head>
+<x-head title="Home">
     <x-navigation></x-navigation>
     <section class="section-container">
         <div class="relative">

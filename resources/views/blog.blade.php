@@ -1,4 +1,4 @@
-<x-head>
+<x-head title="Blog">
     <x-navigation></x-navigation>
     <h1 class="text-center m-auto text-xl">
         This page is under construction.

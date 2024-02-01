@@ -1,4 +1,4 @@
-<x-head>
+<x-head title="About">
     <x-navigation></x-navigation>
     <section class="section-container">
         <div class="m-auto bg-slate-200 rounded-full w-52 h-52 relative overflow-hidden">
