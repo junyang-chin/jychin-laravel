@@ -53,6 +53,9 @@
     .hero-text {
         @apply mt-6;
     }
+    .nav-container {
+        @apply max-w-2xl w-11/12 m-auto mb-4 px-2 sm:px-0 flex justify-between items-center;
+    }
 
     .section-container {
         @apply max-w-2xl w-11/12 m-auto mb-12 px-2 sm:px-0;

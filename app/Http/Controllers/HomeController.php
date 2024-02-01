@@ -6,7 +6,7 @@ use App\Models\Traffic;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 
-class RootController extends Controller
+class HomeController extends Controller
 {
     public const TTL = 60;
 
@@ -17,6 +17,6 @@ class RootController extends Controller
         });
 
         return response()
-            ->view('index', ['visits' => $visits]);
+            ->view('home', ['visits' => $visits]);
     }
 }
