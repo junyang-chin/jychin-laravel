@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Middleware\LogTrafficMiddleware;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware(['cache.headers:public;max_age=60;etag'])->get('/', HomeController::class);
+Route::middleware(['cache.headers:public;max_age=60;etag', LogTrafficMiddleware::class])->get('/', HomeController::class);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/blog', [BlogController::class, 'index']);
