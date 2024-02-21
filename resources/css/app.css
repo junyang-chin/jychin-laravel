@@ -13,21 +13,37 @@
 }
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    
     body {
-        @apply font-[300] text-light-dark text-[1.1rem] leading-[1.8rem] bg-light;
+        @apply bg-zinc-800 text-neutral-50 text-[1.1rem] leading-[1.8rem];
     }
 }
 
 @layer utilities {
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fade-in-image {
+        animation: fadeIn 2s;
+    }
+
     .font-extra-condensed {
         font-stretch: extra-condensed;
     }
 
-
     .font-semi-condensed {
         font-stretch: semi-condensed;
     }
-    
+
     .font-condensed {
         font-stretch: condensed;
     }
@@ -46,15 +62,8 @@
 }
 
 @layer components {
-    .hover-link {
-        @apply hover:border-primary hover:text-primary hover:bg-slate-200 rounded;
-    }
-
     .hero-text {
         @apply mt-6;
-    }
-    .nav-container {
-        @apply max-w-2xl w-11/12 m-auto mb-4 px-2 sm:px-0 flex justify-between items-center;
     }
 
     .section-container {
@@ -62,6 +71,10 @@
     }
 
     .section-title {
-        @apply text-xl mb-2 font-bold font-expanded text-dark;
+        @apply text-xl my-4 font-bold font-expanded;
+    }
+
+    .card-container {
+        @apply w-full flex flex-wrap gap-4 justify-start items-start;
     }
 }

@@ -1,9 +1,5 @@
-<nav class="nav-container">
-    <a class="font-bold font-condensed leading-10 text-3xl text-dark mt-4 inline-block select-none" href="/">
-        Jun Yang <span class="text-primary">Chin</span>
-    </a>
-    <ul class="flex gap-2">
-        <li><a class="inline-block w-16 text-center hover:bg-slate-200 hover:rounded" href="/blog">Blog</a></li>
-        <li><a class="inline-block w-16 text-center hover:bg-slate-200 hover:rounded" href="/about">About</a></li>
-    </ul>
+<nav id="nav" class="sticky top-0 left-0 flex justify-center gap-8 items-end h-16 font-bold font-expanded text-xl bg-inherit pb-2">
+    @foreach ($links as $title => $slug)
+        <a href="/{{$slug}}" class="hover:pb-2 underline duration-300">{{ $title }}</a>
+    @endforeach
 </nav>
