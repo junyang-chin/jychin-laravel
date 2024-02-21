@@ -1,0 +1,40 @@
+# fly.toml app configuration file generated for jychin on 2023-11-15T20:34:43+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "jychin"
+primary_region = "sin"
+console_command = "php /var/www/html/artisan tinker"
+
+[build]
+  [build.args]
+    NODE_VERSION = "18"
+    PHP_VERSION = "8.2"
+
+[mounts]
+source = "jychin_data"
+destination = "/var/www/html/fly_volumes"
+
+[env]
+  APP_NAME = "jychin"
+  APP_ENV = "production"
+  APP_DEBUG = "false"
+  LOG_CHANNEL = "stderr"
+  LOG_LEVEL = "info"
+  LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
+  SESSION_DRIVER = "redis"
+  SESSION_SECURE_COOKIE = "true"
+  APP_URL="https://jychin.com"
+  DB_CONNECTION="sqlite"
+  REDIS_HOST= "off-redis.internal"
+  CACHE_DRIVER= "redis"
+  QUEUE_CONNECTION= "redis"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = false
+  min_machines_running = 1
+  processes = ["app"]
