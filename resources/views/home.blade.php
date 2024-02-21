@@ -7,7 +7,7 @@
             </video>
         </div>
         <h1
-            class="w-11/12 mx-auto text-[40px] leading-[80px] sm:text-[70px] sm:leading-[90px] font-expanded text-start font-bold">
+            class="w-11/12 mx-auto text-[40px] leading-[60px] sm:text-[70px] sm:leading-[90px] font-expanded text-start font-bold">
             PERFECTING THE CRAFT<span class="font-medium block">THROUGH CODE</span>
         </h1>
         <div class="w-11/12 mx-auto flex flex-col items-start">
