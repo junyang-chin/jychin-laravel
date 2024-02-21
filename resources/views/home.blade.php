@@ -1,150 +1,64 @@
 <x-head title="Home">
-    <x-navigation></x-navigation>
-    <section class="section-container">
-        <div class="relative">
-            <h2 class="font-extrabold font-expanded leading-4 text-dark md:text-2xl text-xl relative">
-                Backend Developer
-            </h2>
-
+    <section class="min-h-screen w-full text-light flex flex-col py-8 justify-start sm:justify-center gap-6 relative">
+        <div class="absolute w-full h-screen -z-10 top-0 left-0 bg-black opacity-30"></div>
+        <div>
+            <video autoplay loop muted class="absolute h-screen w-full object-cover -z-20 top-0 left-0 min-h-screen">
+                <source src="{{ Vite::asset('resources/images/hero-video.mp4') }}" type="video/mp4" />
+            </video>
         </div>
-        <p class="hero-text bg-light">
-            Hello, this is Jun Yang 俊扬 me Jun and that's fine. I'm web
-            developer based in Kuala Lumpur 🧑‍💻.
-        </p>
-
-        <ul class="flex flex-row justify-start mt-4">
-            <li>
-                <a href="https://www.linkedin.com/in/junyangchin/" target="_blank"
-                    class="font-medium font-expanded 
-                        hover-link"">
-                    LinkedIn
-                </a>
-            </li>
-            <div>&nbsp;/&nbsp;</div>
-            <li>
-                <a href="https://github.com/junyang-chin" target="_blank" class="font-medium font-expanded hover-link">
-                    GitHub
-                </a>
-            </li>
-            <div>&nbsp;/&nbsp;</div>
-            <li>
-                <a href="{{ Vite::asset('resources/docs/cv-chin_jun_yang.pdf') }}" target="_blank"
-                    class="font-medium font-expanded hover-link">
-                    Resume
-                </a>
-            </li>
-        </ul>
-    </section>
-
-    <section class="section-container">
-        <h1 class="section-title">Selected Work</h1>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://adnexio.jobs" target="_blank" class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3 class>adnexioJOBS</h3>
-                    <p class="text-sm">Job matching with AI</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
-        </div>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://edu.adnexio.jobs" target="_blank" class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3>adnexioEDU</h3>
-                    <p class="text-sm">Self paced tech education</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
-        </div>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark">
-            <a href="https://hr.adnexio.jobs" target="_blank" class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3>adnexioHR</h3>
-                    <p class="text-sm">All your HR needs in one portal</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
+        <h1
+            class="w-11/12 mx-auto text-[40px] leading-[60px] sm:text-[70px] sm:leading-[90px] font-expanded text-start font-bold">
+            PERFECTING THE CRAFT<span class="font-medium block">THROUGH CODE</span>
+        </h1>
+        <div class="w-11/12 mx-auto flex flex-col items-start">
+            <p class="sm:w-1/2">
+                Hello, I am <span class="font-bold">Jun Yang 俊扬</span>, some call me Jun and that's fine. I'm web
+                developer based in Kuala Lumpur 🧑‍💻.
+                I started out my career as a Mechanical Engineer then discovered the passion for automating the boring
+                tasks which led me down the road of software development. I'm dedicating this space as a documentation
+                of my learning journey.
+            </p>
+            <a href="#nav" class="underline mt-4">more..</a>
         </div>
     </section>
+    <x-navigation activePage="home"></x-navigation>
+
     <section class="section-container">
-        <h1 class="section-title">Personal Project</h1>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://github.com/junyang-chin/php-from-scratch" target="_blank"
-                class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3>php-from-scratch</h3>
-                    <p class="text-sm">My attempt to build a web framework using Object Oriented Programming in
-                        PHP
-                    </p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
-        </div>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://github.com/junyang-chin/jychin-laravel" target="_blank"
-                class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3>jychin-laravel</h3>
-                    <p class="text-sm">My live website built with Laravel
-                    </p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
+        <h1 class="section-title">Personal Work</h1>
+        <div class="card-container">
+            <x-card title="php-from-scratch"
+                description="My attempt to build a
+web framework using Object Oriented Programming in
+PHP"
+                url="https://github.com/junyang-chin/php-from-scratch"></x-card>
+            <x-card title="jychin-laravel" description="My dynamic website built with laravel"
+                url="https://github.com/junyang-chin/jychin-laravel"></x-card>
         </div>
 
     </section>
     <section class="section-container">
         <h1 class="section-title">What I'm Onto</h1>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://themsaid.com/courses/php-to-go" target="_blank"
-                class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3 class="text-lg">PHP To Go</h3>
-                    <p class="text-sm">Learning Go as a PHP developer</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
-        </div>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://spatie.be/courses/writing-readable-php" target="_blank"
-                class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3 class="text-lg">Writing Readable PHP</h3>
-                    <p class="text-sm">Trying to imitate how Spatie writes PHP</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
-        </div>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://refactoring.guru/design-patterns" target="_blank"
-                class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3 class="text-lg">Design Patterns</h3>
-                    <p class="text-sm">Doing OOP correctly with Refactoring Guru</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
+        <div class="card-container">
+            <x-card title="PHP to Go" description="Learning Go as a PHP developer"
+                url="https://themsaid.com/courses/php-to-go"></x-card>
+            <x-card title="Writing Readable PHP" description="Imitating how Spatie writes PHP"
+                url="https://spatie.be/courses/writing-readable-php"></x-card>
+            <x-card title="Design Patterns" description="Doing OOP correctly with Refactoring Guru"
+                url="https://refactoring.guru/design-patterns"></x-card>
         </div>
     </section>
     <section class="section-container">
         <h1 class="section-title">Achievements</h1>
-        <div class=" hover:text-primary py-2 border-b-[1px] border-light-dark ">
-            <a href="https://www.linkedin.com/posts/junyangchin_hays-hack-coding-competition-winner-activity-7128593960851144704-oYhO?utm_source=share&utm_medium=member_desktop"
-                target="_blank" class="group flex justify-between items-center">
-                <div class="group-hover:underline">
-                    <h3 class="text-lg">Hays &lt/Hack&gt Coding Contest 2023</h3>
-                    <p class="text-sm">Winner of the PHP category</p>
-                </div>
-                <span class="inline after:content-['_↗']"></span>
-            </a>
+        <div class="card-container">
+            <x-card title="Hays </Hack> Coding Contest 2023" description="Winner of the PHP category"
+                url="https://www.linkedin.com/posts/junyangchin_hays-hack-coding-competition-winner-activity-7128593960851144704-oYhO?utm_source=share&utm_medium=member_desktop"></x-card>
         </div>
-
     </section>
     <section class="section-container">
         <h1 class="section-title">Get In Touch</h1>
         <div class="flex flex-wrap">
             <p class="py-1">
-                <span class="text-primary hover:bg-slate-200 px-2 py-1 rounded inline select-all">
+                <span class="text-primary px-2 py-1 rounded inline select-all">
                     &#106;u&#110;ya&#110;g&#46;&#99;hin&#64;ou&#116;loo&#107;&#46;com
                 </span>
             </p>

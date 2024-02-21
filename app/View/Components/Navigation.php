@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class Navigation extends Component
 {
+    const LINKS = ["Home" => "", "Blog" => "blog", "About" => "about",];
+
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(public string $activePage)
     {
-        //
     }
 
     /**
@@ -21,6 +22,10 @@ class Navigation extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.navigation');
+        $links = array_filter(self::LINKS, function ($slug, $title) {
+            return strtolower($title) !== $this->activePage;
+        }, ARRAY_FILTER_USE_BOTH);
+
+        return view('components.navigation', compact("links"));
     }
 }

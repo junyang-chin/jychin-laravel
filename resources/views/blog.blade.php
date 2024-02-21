@@ -1,5 +1,5 @@
 <x-head title="Blog">
-    <x-navigation></x-navigation>
+    <x-navigation activePage="blog"></x-navigation>
     <h1 class="text-center m-auto text-xl">
         This page is under construction.
     </h1>
