@@ -3,7 +3,7 @@
         <div class="absolute w-full h-screen -z-10 top-0 left-0 bg-black opacity-30"></div>
         <div>
             <video autoplay loop muted class="absolute h-screen w-full object-cover -z-20 top-0 left-0 min-h-screen">
-                <source src="{{ Vite::asset('resources/images/hero-video.mp4') }}" type="video/mp4" />
+                <source src="{{ Vite::asset('resources/images/hero-video.webm') }}" type="video/mp4" />
             </video>
         </div>
         <h1
